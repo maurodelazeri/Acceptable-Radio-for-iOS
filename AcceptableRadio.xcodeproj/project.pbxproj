@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058EC8EC1A699A2400C0052D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EC8EB1A699A2400C0052D /* AppDelegate.swift */; };
+		058EC8EF1A699A2400C0052D /* AcceptableRadio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 058EC8ED1A699A2400C0052D /* AcceptableRadio.xcdatamodeld */; };
+		058EC8F11A699A2500C0052D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EC8F01A699A2500C0052D /* ViewController.swift */; };
+		058EC8F41A699A2500C0052D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058EC8F21A699A2500C0052D /* Main.storyboard */; };
+		058EC8F61A699A2500C0052D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058EC8F51A699A2500C0052D /* Images.xcassets */; };
+		058EC8F91A699A2500C0052D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 058EC8F71A699A2500C0052D /* LaunchScreen.xib */; };
+		058EC9051A699A2500C0052D /* AcceptableRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EC9041A699A2500C0052D /* AcceptableRadioTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		058EC8FF1A699A2500C0052D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058EC8DE1A699A2400C0052D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058EC8E51A699A2400C0052D;
+			remoteInfo = AcceptableRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058EC8E61A699A2400C0052D /* AcceptableRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcceptableRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		058EC8EA1A699A2400C0052D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058EC8EB1A699A2400C0052D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		058EC8EE1A699A2400C0052D /* AcceptableRadio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AcceptableRadio.xcdatamodel; sourceTree = "<group>"; };
+		058EC8F01A699A2500C0052D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		058EC8F31A699A2500C0052D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		058EC8F51A699A2500C0052D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		058EC8F81A699A2500C0052D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		058EC8FE1A699A2500C0052D /* AcceptableRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceptableRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		058EC9031A699A2500C0052D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058EC9041A699A2500C0052D /* AcceptableRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptableRadioTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		058EC8E31A699A2400C0052D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058EC8FB1A699A2500C0052D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058EC8DD1A699A2400C0052D = {
+			isa = PBXGroup;
+			children = (
+				058EC8E81A699A2400C0052D /* AcceptableRadio */,
+				058EC9011A699A2500C0052D /* AcceptableRadioTests */,
+				058EC8E71A699A2400C0052D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		058EC8E71A699A2400C0052D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				058EC8E61A699A2400C0052D /* AcceptableRadio.app */,
+				058EC8FE1A699A2500C0052D /* AcceptableRadioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		058EC8E81A699A2400C0052D /* AcceptableRadio */ = {
+			isa = PBXGroup;
+			children = (
+				058EC8EB1A699A2400C0052D /* AppDelegate.swift */,
+				058EC8F01A699A2500C0052D /* ViewController.swift */,
+				058EC8F21A699A2500C0052D /* Main.storyboard */,
+				058EC8F51A699A2500C0052D /* Images.xcassets */,
+				058EC8F71A699A2500C0052D /* LaunchScreen.xib */,
+				058EC8ED1A699A2400C0052D /* AcceptableRadio.xcdatamodeld */,
+				058EC8E91A699A2400C0052D /* Supporting Files */,
+			);
+			path = AcceptableRadio;
+			sourceTree = "<group>";
+		};
+		058EC8E91A699A2400C0052D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				058EC8EA1A699A2400C0052D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		058EC9011A699A2500C0052D /* AcceptableRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				058EC9041A699A2500C0052D /* AcceptableRadioTests.swift */,
+				058EC9021A699A2500C0052D /* Supporting Files */,
+			);
+			path = AcceptableRadioTests;
+			sourceTree = "<group>";
+		};
+		058EC9021A699A2500C0052D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				058EC9031A699A2500C0052D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		058EC8E51A699A2400C0052D /* AcceptableRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058EC9081A699A2500C0052D /* Build configuration list for PBXNativeTarget "AcceptableRadio" */;
+			buildPhases = (
+				058EC8E21A699A2400C0052D /* Sources */,
+				058EC8E31A699A2400C0052D /* Frameworks */,
+				058EC8E41A699A2400C0052D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AcceptableRadio;
+			productName = AcceptableRadio;
+			productReference = 058EC8E61A699A2400C0052D /* AcceptableRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		058EC8FD1A699A2500C0052D /* AcceptableRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058EC90B1A699A2500C0052D /* Build configuration list for PBXNativeTarget "AcceptableRadioTests" */;
+			buildPhases = (
+				058EC8FA1A699A2500C0052D /* Sources */,
+				058EC8FB1A699A2500C0052D /* Frameworks */,
+				058EC8FC1A699A2500C0052D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058EC9001A699A2500C0052D /* PBXTargetDependency */,
+			);
+			name = AcceptableRadioTests;
+			productName = AcceptableRadioTests;
+			productReference = 058EC8FE1A699A2500C0052D /* AcceptableRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		058EC8DE1A699A2400C0052D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Acceptable Ice Development";
+				TargetAttributes = {
+					058EC8E51A699A2400C0052D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					058EC8FD1A699A2500C0052D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 058EC8E51A699A2400C0052D;
+					};
+				};
+			};
+			buildConfigurationList = 058EC8E11A699A2400C0052D /* Build configuration list for PBXProject "AcceptableRadio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 058EC8DD1A699A2400C0052D;
+			productRefGroup = 058EC8E71A699A2400C0052D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				058EC8E51A699A2400C0052D /* AcceptableRadio */,
+				058EC8FD1A699A2500C0052D /* AcceptableRadioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		058EC8E41A699A2400C0052D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058EC8F41A699A2500C0052D /* Main.storyboard in Resources */,
+				058EC8F91A699A2500C0052D /* LaunchScreen.xib in Resources */,
+				058EC8F61A699A2500C0052D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058EC8FC1A699A2500C0052D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058EC8E21A699A2400C0052D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058EC8F11A699A2500C0052D /* ViewController.swift in Sources */,
+				058EC8EC1A699A2400C0052D /* AppDelegate.swift in Sources */,
+				058EC8EF1A699A2400C0052D /* AcceptableRadio.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058EC8FA1A699A2500C0052D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058EC9051A699A2500C0052D /* AcceptableRadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		058EC9001A699A2500C0052D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058EC8E51A699A2400C0052D /* AcceptableRadio */;
+			targetProxy = 058EC8FF1A699A2500C0052D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		058EC8F21A699A2500C0052D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058EC8F31A699A2500C0052D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		058EC8F71A699A2500C0052D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058EC8F81A699A2500C0052D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		058EC9061A699A2500C0052D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		058EC9071A699A2500C0052D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		058EC9091A699A2500C0052D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AcceptableRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		058EC90A1A699A2500C0052D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AcceptableRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		058EC90C1A699A2500C0052D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AcceptableRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcceptableRadio.app/AcceptableRadio";
+			};
+			name = Debug;
+		};
+		058EC90D1A699A2500C0052D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AcceptableRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcceptableRadio.app/AcceptableRadio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058EC8E11A699A2400C0052D /* Build configuration list for PBXProject "AcceptableRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058EC9061A699A2500C0052D /* Debug */,
+				058EC9071A699A2500C0052D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058EC9081A699A2500C0052D /* Build configuration list for PBXNativeTarget "AcceptableRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058EC9091A699A2500C0052D /* Debug */,
+				058EC90A1A699A2500C0052D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		058EC90B1A699A2500C0052D /* Build configuration list for PBXNativeTarget "AcceptableRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058EC90C1A699A2500C0052D /* Debug */,
+				058EC90D1A699A2500C0052D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		058EC8ED1A699A2400C0052D /* AcceptableRadio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				058EC8EE1A699A2400C0052D /* AcceptableRadio.xcdatamodel */,
+			);
+			currentVersion = 058EC8EE1A699A2400C0052D /* AcceptableRadio.xcdatamodel */;
+			path = AcceptableRadio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 058EC8DE1A699A2400C0052D /* Project object */;
+}
