@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050776D81A6C712A00F0FF82 /* defaultAlbum.png in Resources */ = {isa = PBXBuildFile; fileRef = 050776D71A6C712A00F0FF82 /* defaultAlbum.png */; };
 		058EC8EC1A699A2400C0052D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EC8EB1A699A2400C0052D /* AppDelegate.swift */; };
 		058EC8EF1A699A2400C0052D /* AcceptableRadio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 058EC8ED1A699A2400C0052D /* AcceptableRadio.xcdatamodeld */; };
-		058EC8F11A699A2500C0052D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EC8F01A699A2500C0052D /* ViewController.swift */; };
 		058EC8F41A699A2500C0052D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058EC8F21A699A2500C0052D /* Main.storyboard */; };
 		058EC8F61A699A2500C0052D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058EC8F51A699A2500C0052D /* Images.xcassets */; };
 		058EC8F91A699A2500C0052D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 058EC8F71A699A2500C0052D /* LaunchScreen.xib */; };
 		058EC9051A699A2500C0052D /* AcceptableRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EC9041A699A2500C0052D /* AcceptableRadioTests.swift */; };
+		058EC90F1A699C2D00C0052D /* StorageClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EC90E1A699C2D00C0052D /* StorageClasses.swift */; };
+		058EC9131A69A0B400C0052D /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058EC9121A69A0B400C0052D /* SWXMLHash.swift */; };
+		05937BE11A6B147400BAB21D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05937BE01A6B147400BAB21D /* MainViewController.swift */; };
+		05B9EB521A69A80700E26DFA /* ChannelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9EB511A69A80700E26DFA /* ChannelListViewController.swift */; };
+		05B9EB541A69AACF00E26DFA /* ChannelListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9EB531A69AACF00E26DFA /* ChannelListCell.swift */; };
+		05BBC3C21A6B061D0099579C /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BBC3C11A6B061D0099579C /* NowPlayingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +33,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050776D71A6C712A00F0FF82 /* defaultAlbum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = defaultAlbum.png; path = ../AcceptableRadio/defaultAlbum.png; sourceTree = "<group>"; };
 		058EC8E61A699A2400C0052D /* AcceptableRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcceptableRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058EC8EA1A699A2400C0052D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		058EC8EB1A699A2400C0052D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		058EC8EE1A699A2400C0052D /* AcceptableRadio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AcceptableRadio.xcdatamodel; sourceTree = "<group>"; };
-		058EC8F01A699A2500C0052D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		058EC8F31A699A2500C0052D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		058EC8F51A699A2500C0052D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		058EC8F81A699A2500C0052D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		058EC8FE1A699A2500C0052D /* AcceptableRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceptableRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		058EC9031A699A2500C0052D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		058EC9041A699A2500C0052D /* AcceptableRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptableRadioTests.swift; sourceTree = "<group>"; };
+		058EC90E1A699C2D00C0052D /* StorageClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageClasses.swift; sourceTree = "<group>"; };
+		058EC9121A69A0B400C0052D /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		05937BE01A6B147400BAB21D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		05B9EB511A69A80700E26DFA /* ChannelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChannelListViewController.swift; path = ../ChannelListViewController.swift; sourceTree = "<group>"; };
+		05B9EB531A69AACF00E26DFA /* ChannelListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListCell.swift; sourceTree = "<group>"; };
+		05BBC3C11A6B061D0099579C /* NowPlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		050776D91A6C714B00F0FF82 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				050776D71A6C712A00F0FF82 /* defaultAlbum.png */,
+			);
+			name = Images;
+			path = AcceptableRadioTests;
+			sourceTree = SOURCE_ROOT;
+		};
 		058EC8DD1A699A2400C0052D = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +100,19 @@
 		058EC8E81A699A2400C0052D /* AcceptableRadio */ = {
 			isa = PBXGroup;
 			children = (
+				050776D91A6C714B00F0FF82 /* Images */,
+				05B9EB511A69A80700E26DFA /* ChannelListViewController.swift */,
+				05B9EB531A69AACF00E26DFA /* ChannelListCell.swift */,
 				058EC8EB1A699A2400C0052D /* AppDelegate.swift */,
-				058EC8F01A699A2500C0052D /* ViewController.swift */,
+				058EC90E1A699C2D00C0052D /* StorageClasses.swift */,
+				058EC9121A69A0B400C0052D /* SWXMLHash.swift */,
 				058EC8F21A699A2500C0052D /* Main.storyboard */,
 				058EC8F51A699A2500C0052D /* Images.xcassets */,
 				058EC8F71A699A2500C0052D /* LaunchScreen.xib */,
 				058EC8ED1A699A2400C0052D /* AcceptableRadio.xcdatamodeld */,
 				058EC8E91A699A2400C0052D /* Supporting Files */,
+				05BBC3C11A6B061D0099579C /* NowPlayingViewController.swift */,
+				05937BE01A6B147400BAB21D /* MainViewController.swift */,
 			);
 			path = AcceptableRadio;
 			sourceTree = "<group>";
@@ -196,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				058EC8F41A699A2500C0052D /* Main.storyboard in Resources */,
+				050776D81A6C712A00F0FF82 /* defaultAlbum.png in Resources */,
 				058EC8F91A699A2500C0052D /* LaunchScreen.xib in Resources */,
 				058EC8F61A699A2500C0052D /* Images.xcassets in Resources */,
 			);
@@ -215,9 +243,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				058EC8F11A699A2500C0052D /* ViewController.swift in Sources */,
 				058EC8EC1A699A2400C0052D /* AppDelegate.swift in Sources */,
+				058EC90F1A699C2D00C0052D /* StorageClasses.swift in Sources */,
+				058EC9131A69A0B400C0052D /* SWXMLHash.swift in Sources */,
+				05BBC3C21A6B061D0099579C /* NowPlayingViewController.swift in Sources */,
 				058EC8EF1A699A2400C0052D /* AcceptableRadio.xcdatamodeld in Sources */,
+				05B9EB521A69A80700E26DFA /* ChannelListViewController.swift in Sources */,
+				05B9EB541A69AACF00E26DFA /* ChannelListCell.swift in Sources */,
+				05937BE11A6B147400BAB21D /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +373,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AcceptableRadio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AcceptableRadio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +444,7 @@
 				058EC90A1A699A2500C0052D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		058EC90B1A699A2500C0052D /* Build configuration list for PBXNativeTarget "AcceptableRadioTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +453,7 @@
 				058EC90D1A699A2500C0052D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
